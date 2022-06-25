@@ -1,9 +1,10 @@
 import './App.css';
+import LandingPage from './pages/landing';
 
 function App() {
   return (
     <div className="App">
-      <p>all is well</p>
+      <LandingPage />
     </div>
   );
 }

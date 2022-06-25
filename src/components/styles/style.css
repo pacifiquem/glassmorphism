@@ -1,0 +1,32 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70vw;
+    height: 84vh;
+    margin: 8vh auto;
+    border-radius: 3.5em;
+    display: flex;
+    background-color: rgba(255, 255, 255, .5);
+    border: .01em rgba(201, 199, 199, 0.2) solid;
+    box-shadow: 0 0 5em .1em rgba(177, 250, 254, 0.2), 0 0 5em .1em rgba(247, 169, 254, 0.2) ;
+}
+
+.first-part {
+    width: 60%;
+    height: 100%;
+    border-top-left-radius: 3.5em;
+    border-bottom-left-radius: 3.5em;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.second-part {
+    width: 40%;
+    height: 100%;
+    border-top-right-radius: 3.5em;
+    border-bottom-right-radius: 3.5em;
+    background-image: linear-gradient(to bottom, rgba(227, 156, 255, 0.4), rgba(124, 203, 255, 0.4));
+}
