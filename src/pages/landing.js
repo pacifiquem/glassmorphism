@@ -1,5 +1,6 @@
 import React from "react";
 import '../components/styles/style.css';
+import PayCards from "../components/pay_cards";
 
 const landingPage = () => {
     return (
@@ -9,7 +10,7 @@ const landingPage = () => {
 
                 </div>
                 <div className="second-part">
-
+                    <PayCards />
                 </div>
             </div>
         </>
