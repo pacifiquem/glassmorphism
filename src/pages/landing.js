@@ -7,7 +7,6 @@ const landingPage = () => {
         <>
             <div className="container">
                 <div className="first-part">
-
                 </div>
                 <div className="second-part">
                     <PayCards />
